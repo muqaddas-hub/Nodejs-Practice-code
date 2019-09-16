@@ -10,7 +10,6 @@
 const request = require('request');
 const gecode = require('./util/geoCode.js')
 const forecast = require('./util/forecast.js')
-
 const address = "Pakistan"
 gecode(address,(error,{longitude, latitude, location}) => {
     if(error){
